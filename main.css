@@ -119,3 +119,11 @@ body {
       .color-changing-button.active {
         background-color: red;
       }
+      .micro{
+        margin-right: 20px;
+        margin-top: 30px;
+      }
+      .microdata{
+        margin-left: 20px;
+        margin-top: 10px;
+      }

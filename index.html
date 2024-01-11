@@ -13,7 +13,6 @@
       </div>
 <!-- image with text -->
 
-<div class="image-containerr">
     <img src="user4.jpg" alt="Your Small Image">
     <div class="text-overlay">
       My Name is Salma, I Love ITI
@@ -36,6 +35,25 @@
     </div>
 <!-- color button -->
 <button class="color-changing-button" onclick="toggleColor()">Press me</button>
+<!-- MicroData -->
+        <h1 class="microdata">MicroData</h1>
+        <div itemscope itemtype="http://data-vocabulary.org/Organization" class="micro">
+        <h2 itemprop="name">.SD & Gaming CoE, ITI</h2>
+        <span itemprop="tel">35355695</span>
+        <a href="https://iti.gov.eg/iti/home" itemprop="url">https://iti.gov.eg/iti/home</a>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">km 28 Cairo - Alexandria Desert Road</span>
+            <span itemprop="addressLocality">Smart Village</span>
+            <span itemprop="addressRegion">Giza</span>
+            <span itemprop="postalCode">11371</span>
+
+        </div>
+        <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+        <span itemprop="latitude"> N 38.5323</span>
+        <span itemprop="longitude">W 77.0040</span>
+        </div>
+        </div>
+
 
       <script src='main.js'></script>
 </body>
